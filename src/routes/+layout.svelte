@@ -26,6 +26,6 @@
 			<span>|</span>
 			<a href="/">Legal</a>
 		</nav>
-		<p class="copyright">&copy; 2023 Your Company. <br />All Rights Reserved.</p>
+		<p class="copyright">&copy; 2024 Nova Softworks. <br />All Rights Reserved.</p>
 	</footer>
 </div>

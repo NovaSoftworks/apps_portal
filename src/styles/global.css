@@ -107,6 +107,8 @@ a:hover {
 
     transition: background-color 0.3s ease;
     transition: color 0.3s ease;
+
+    user-select: none;
 }
 
 .btn:hover {
@@ -126,9 +128,18 @@ a:hover {
 }
 
 .btn:disabled,
-.btn[disabled] {
-    opacity: 0.5;
+.btn[disabled],
+.btn.disabled {
     cursor: not-allowed;
+    pointer-events: visible;
+}
+
+.btn:disabled:active,
+.btn[disabled]:active,
+.btn.disabled:active {
+    cursor: not-allowed;
+    pointer-events: visible;
+    color: var(--primary-color);
 }
 
 
@@ -152,7 +163,7 @@ a:hover {
     height: 20px;
 }
 
-.main-header__logo:hover {
+a:has(> .main-header__logo):hover {
     opacity: 1;
 }
 

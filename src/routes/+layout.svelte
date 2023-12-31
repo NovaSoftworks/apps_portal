@@ -6,7 +6,7 @@
 	<header class="main-header">
 		<a href="/"><div class="main-header__logo"></div></a>
 		<nav class="main-header__nav-right">
-			<a href="/" class="btn">Sign In</a>
+			<a href="/" class="btn disabled">Sign In</a>
 		</nav>
 	</header>
 

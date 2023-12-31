@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Target environment for the publication'
+        description: 'Target environment for publication'
         required: true
         default: 'dev'
         type: choice
